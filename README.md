@@ -1,4 +1,4 @@
-# gmtools
+# gmtools (API)
 Access gmad and gmpublish within Garry's Mod!
 
 # Table of Contents
