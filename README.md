@@ -54,5 +54,8 @@ Example:
 ```print(gmtools.gmpublish_list())```
 
 
+# Known issues
+- When listing the contents of a mod with numerous files inside, the printing is truncated - this is an issue with char arrays
+
 # Credits
 Inspired by g-ace-io
