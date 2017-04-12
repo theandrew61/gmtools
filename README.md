@@ -69,8 +69,8 @@ You will need:
 
 Steps:
 1. Clone the repo.
-2. Run *BuildPart1.bat*
-3. Run
+2. Run *CreateSln.bat*. This will generate a Visual Studio solution.
+3. Open the solution and build it.
 ## macOS & Linux
 none yet
 
