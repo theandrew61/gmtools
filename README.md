@@ -18,7 +18,7 @@ Description:
 
 Parameters:
 - inputFolder (required): the path to the mod you want to create
-- outputGMA (optional): the path to the *.gma*
+- outputGMA (optional): the path to the *.gma*, **note**: the *.gma* extenesion will be added by gmad if it isn't there
 
 Returns:
 - string: whatever gmad returns
