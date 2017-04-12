@@ -12,16 +12,47 @@ Steps:
 3. In  ```garrysmod/addons```, either move the *.gma* to there, or clone the mod's repo in there.
 
 # API
-### ```gmtools.create_gma(inputFolder, outputGMA)```
+### ```gmtools.gmad_create(inputFolder, outputGMA)```
 Description:
 - Creates a *.gma* file based on the inputFolder.
 
 Parameters:
 - inputFolder (required): the path to the mod you want to create
-- outputFolder (optional): the path to the *.gma*
+- outputGMA (optional): the path to the *.gma*
+
+Returns:
+- string: whatever gmad returns
 
 Example:
 ```gmtools.gmad_create("C:\Users\andrew\Desktop\mod", "C:\Users\andrew\Desktop\mod.gma")```
+
+### ```gmtools.gmad_extract(inputGMA, outputFolder)```
+Description:
+- Extracts the inputGMA.
+
+Parameters:
+- inputGMA (required): the path to the *.gma* you want to create
+- outputFolder (optional): the path where the *.gma* will be extracted
+
+Returns:
+- string: whatever gmad returns
+
+Example:
+```gmtools.gmad_extract("C:\Users\andrew\Desktop\mod.gma", "C:\Users\andrew\Desktop\mod")```
+
+### ```gmtools.gmpublish_list()```
+Description:
+- Lists all the mods you have uploaded to the Garry's Mod Workshop.
+
+Parameters:
+- none
+
+Returns:
+- string: whatever gmpublish returns
+
+Example:
+```print(gmtools.gmpublish_list())```
+
 
 # Credits
 Inspired by g-ace-io
