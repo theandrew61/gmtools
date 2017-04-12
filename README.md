@@ -1,6 +1,9 @@
 # gmtools
 Access gmad and gmpublish within Garry's Mod!
 
+# Table of Contents
+[Installation]()
+
 # Installation
 Installing gmtools to Garry's Mod is easy.
 Steps:
