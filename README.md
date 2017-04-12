@@ -56,6 +56,7 @@ Example:
 
 # Known issues
 - When listing the contents of a mod with numerous files inside, the printing is truncated - this is an issue with char arrays
+![](http://i.imgur.com/RigKwyd.jpg)
 
 # Credits
 Inspired by g-ace-io
