@@ -2,7 +2,11 @@
 Access gmad and gmpublish within Garry's Mod!
 
 # Table of Contents
-[Installation]()
+- [Installation](#table-of-contents)
+- [API](#api)
+- [Building](#building)
+- [Known issues](#known-issues)
+- [Credits](#credits)
 
 # Installation
 Installing gmtools to Garry's Mod is easy.
@@ -56,6 +60,19 @@ Returns:
 Example:
 ```print(gmtools.gmpublish_list())```
 
+# Building
+## Windows
+You will need:
+- premake4 (included)
+- Visual Studio 2010 or newer (I used VS 2015)
+- Garry's Mod
+
+Steps:
+1. Clone the repo.
+2. Run *BuildPart1.bat*
+3. Run
+## macOS & Linux
+none yet
 
 # Known issues
 - When listing the contents of a mod with numerous files inside, the printing is truncated - this is an issue with char arrays
